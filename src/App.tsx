@@ -22,7 +22,8 @@ const App = () => {
         // const percentX = (window.scrollX / 100) * 100;
         // console.log(percentY);
         // console.log(percentX);
-        window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);
+        window.scrollTo({ top: 0, behavior: "smooth" });
     };
     useEffect(() => {
         getImages();
